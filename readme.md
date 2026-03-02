@@ -1,4 +1,3 @@
-```markdown
 # CortexRAG  
 ### A Local Multimodal Retrieval-Augmented Intelligence System
 
