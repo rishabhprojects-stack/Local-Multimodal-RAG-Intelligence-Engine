@@ -3,37 +3,37 @@
 
 CortexRAG is a fully local, multimodal AI platform that combines:
 
-- 📄 Document Retrieval (RAG)
-- 🖼 Hybrid Image Search (Text + Vector)
-- 🙂 Face Identification & Labeling
-- 🧠 Local LLM Inference (Ollama)
-- 📊 System Monitoring Dashboard
-- 🗄 Vector Database (Qdrant)
+- Document Retrieval (RAG)
+- Hybrid Image Search (Text + Vector)
+- Face Identification & Labeling
+- Local LLM Inference (Ollama)
+- System Monitoring Dashboard
+- Vector Database (Qdrant)
 
 The system runs entirely locally and does not rely on external APIs.
 
 ---
 
-## 🚀 Features
+## Features
 
-### 📄 Document RAG
+### Document RAG
 - PDF ingestion
 - Smart chunking
 - Embedding with FastEmbed
 - Vector storage in Qdrant
 - Context-grounded LLM responses
 
-### 🖼 Hybrid Image Search
+### Hybrid Image Search
 - Text-to-image retrieval
 - Vector similarity matching
 - Image metadata display
 
-### 🙂 Face Identification
+### Face Identification
 - Detect and store unknown faces
 - Assign identities manually
 - Persist face embeddings
 
-### 📊 System Dashboard
+### System Dashboard
 - Total processed files
 - Vector collection statistics
 - Embedding model info
@@ -41,7 +41,7 @@ The system runs entirely locally and does not rely on external APIs.
 
 ---
 
-## 🏗 Project Architecture
+## Project Architecture
 
 ```
 
@@ -85,23 +85,23 @@ phase 3/
 
 ---
 
-## ⚙️ Installation
+## Installation
 
-### 1️⃣ Clone the repository
+### Clone the repository
 
 ```bash
 git clone <your-repo-url>
 cd project
 ````
 
-### 2️⃣ Create virtual environment
+### Create virtual environment
 
 ```bash
 python -m venv venv
 source venv/bin/activate
 ```
 
-### 3️⃣ Install dependencies
+### Install dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -109,7 +109,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🧠 Install and Run Ollama
+## Install and Run Ollama
 
 Install Ollama:
 
@@ -131,7 +131,7 @@ ollama pull llama3.2:8b
 
 ---
 
-## 🗄 Run Qdrant
+## Run Qdrant
 
 Option 1: Docker (recommended)
 
@@ -143,7 +143,7 @@ Option 2: In-memory mode (development only)
 
 ---
 
-## ▶️ Run the Application
+##Run the Application
 
 ```bash
 streamlit run app.py
@@ -157,7 +157,7 @@ http://localhost:8501
 
 ---
 
-## 🔍 How RAG Works
+## How RAG Works
 
 1. Documents are ingested and chunked.
 2. Chunks are embedded using FastEmbed.
@@ -169,7 +169,7 @@ http://localhost:8501
 
 ---
 
-## 🧠 Models Used
+## Models Used
 
 * Embeddings: FastEmbed (`BAAI/bge-small-en-v1.5`)
 * LLM: LLaMA 3.2 via Ollama
@@ -177,7 +177,7 @@ http://localhost:8501
 
 ---
 
-## 📌 Requirements
+## Requirements
 
 * Python 3.10+
 * Docker (optional but recommended)
@@ -186,7 +186,7 @@ http://localhost:8501
 
 ---
 
-## 🔐 Local-First Architecture
+## Local-First Architecture
 
 * No external API calls
 * No OpenAI dependency
@@ -195,7 +195,7 @@ http://localhost:8501
 
 ---
 
-## 📈 Future Improvements
+## Future Improvements
 
 * Similarity threshold filtering
 * Hybrid BM25 + Vector search
@@ -206,14 +206,14 @@ http://localhost:8501
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 Harsh Tripathi
 Multimodal AI Systems Engineer
 
 ---
 
-## 📄 License
+## License
 
 MIT License
 
